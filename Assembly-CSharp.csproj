@@ -63,10 +63,15 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/PlayerView.cs" />
-    <Compile Include="Assets/Scripts/PlayerHealthUI.cs" />
-    <Compile Include="Assets/Scripts/PlayerHealth.cs" />
-    <Compile Include="Assets/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerHealthUI.cs" />
+    <Compile Include="Assets/Scripts/ItemNameDisplay.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerHealth.cs" />
+    <Compile Include="Assets/Scripts/GameObjectDescriptor.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerView.cs" />
+    <Compile Include="Assets/Scripts/Medkit/Medkit.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/GameObjectType.cs" />
+    <Compile Include="Assets/Scripts/IItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
